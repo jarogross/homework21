@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Úloha - Spracovanie dátumu narodenia</title>
+  <style>
+    #obdobie-image {
+      max-width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Úloha - Spracovanie dátumu narodenia</h1>
+  <label for="birthdate">Dátum narodenia:</label>
+  <input type="date" id="birthdate">
+  <button onclick="spracujDatum()">Spracovať</button>
+  
+  <div id="days"></div>
+  <div id="obdobie">
+    <img id="obdobie-image" src="" alt="Ročné obdobie">
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
